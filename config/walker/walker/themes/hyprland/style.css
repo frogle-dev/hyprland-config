@@ -31,8 +31,9 @@ scrollbar {
   border-radius: 20px;
   /* border: 1px solid darker(var(--accent_bg_color)); */
 
-  border-bottom: 3px solid rgb(250, 179, 135);
+  border-bottom: 4px solid #ff914c;
 }
+
 
 .preview-box,
 .elephant-hint,

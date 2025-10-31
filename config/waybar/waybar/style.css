@@ -1,3 +1,11 @@
+/*
+#a62891
+#eb587b
+#fe9b72
+#74bcda
+#1a658c
+*/
+
 * {
   border: none;
   border-radius: 0;
@@ -5,6 +13,8 @@
   font-family: JetBrainsMono Nerd Font;
   font-size: 13px;
 }
+
+
 
 window#waybar {
   background-color: transparent;
@@ -35,18 +45,16 @@ window#waybar.hidden {
   padding: 8px 15px;
   margin: 6px 3px;
   border-radius: 5px;
-
-  background-color: rgba(30, 30, 46, 0.6);
+  
+  background-color: rgba(0, 0, 0, 0.3);
   color: #cdd6f4;
   
   border-bottom: 3px solid rgba(148, 226, 213, 1);
 }
 
 #workspaces button.active {
-  background-color: rgba(30, 30, 46, 0.6);
   color: #cdd6f4;
-  padding: 8px 25px;
-  border-bottom: 4px solid rgb(250, 179, 135);
+  border-bottom: 4px solid rgb(252, 123, 91);
 }
 
 #workspaces button:hover {
@@ -57,7 +65,8 @@ window#waybar.hidden {
 }
 
 #workspaces button.urgent {
-  background-color: rgb(243, 139, 168);
+  color: #1e1e2e;
+  background-color: #cdd6f4;
 }
 
 #window {
@@ -67,7 +76,7 @@ window#waybar.hidden {
   margin: 4px 3px;
   padding: 2px 8px;
   background-color:rgba(0, 0, 0, 0.3);
-  border-bottom: 3px solid rgb(167, 139, 243);
+  border-bottom: 3px solid rgb(255, 255, 255);
 }
 
 
@@ -83,7 +92,7 @@ window#waybar.hidden {
   border-radius: 4px;
   margin: 6px 3px;
   padding: 6px 12px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
 }
 

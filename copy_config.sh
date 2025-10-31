@@ -9,5 +9,6 @@ cp -r ~/.config/waypaper config/waypaper
 cp -r ~/.oh-my-zsh config/oh-my-zsh
 cp ~/.zshrc config
 cp -r ~/.config/yazi config/yazi
+cp ~/.config/starship.toml config
 
 find config -name ".git*" | xargs rm -r 
